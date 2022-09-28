@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME | NONSHS </title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/nav-footer_style.css" />
+    <link rel="stylesheet" href="css/index_style.css" />
+    <link rel="stylesheet" href="css/about-us_style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+  </head>
+  <style>
+    body{
+    width: 100%;
+    height: 100vh;
+    background-image:url('../img/hehe.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  </style>
+  <body>
+    
+    <header>
+      <a href="index.html" class="logo">NONSHS<span>.</span></a>
+
+      <input type="checkbox" name="" id="menu-bar" />
+      <label for="menu-bar">Menu</label>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="about-us.html">About Us</a>
+            <ul>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </li>
+          <li><a href="clubs.html">Clubs</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- page content section starts  -->
+   
+ <section class="content" id="home"></section>
+      <body>
+        <div class = "content">
+            <h3>Negros Occidental</h3>
+            <span>National Science High School</span>
+            <br>
+            <a href="contact-us.html" class="btn">Inquire Now</a>
+        </div>
+     </body>
+     <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br> 
+      <!-- home section starts  -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading"><i style="font: size 35px" class="fa" style="font-size:48px;color:white">&#xf0a1;</i><span> Announcements </span><i style="font: size 35px" class="fa" style="font-size:48px;color:white">&#xf0a1;</i></h2>
+      <div class="txt">
+      </br>
+        
+      </div>
+
+      <div class="slideshow-container">
+        <div class="mySlides">
+          <img src="img/home/1.png" style="width: 100%" />
+        </div>
+  
+      <div class="mySlides">
+        <img src="img/home/3.png" style="width: 100%" />
+      </div>
+    </div>
+      <br />
+  
+      <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+  
+      <script>
+        let slideIndex = 0;
+        showSlides();
+  
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {
+            slideIndex = 1;
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          setTimeout(showSlides, 2000);
+        }
+      </script>
+  </br> </br> </br>
+
+    <!-- page content section ends  -->
+
+    <!-- footer section starts  -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="clubs.html">Clubs</a></li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Clubs</h4>
+            <ul>
+              <li><a href="https://www.facebook.com/ssg.scihi" target="_blank">SSG</a></li>
+              <li><a href="https://www.facebook.com/NONSHS.yeso" target="_blank">YES-O</a></li>
+              <li><a href="https://www.facebook.com/scitamehtamnonshs" target="_blank">Scitametham</a></li>
+              <li><a href="https://www.facebook.com/beryllusprinceps" target="_blank">BPSC</a></li>
+              <li><a href="https://www.facebook.com/socialisscientiasocietas" target="_blank">SSS</a></li>
+              <li><a href="https://www.facebook.com/NONSHS.GintongHiyasyount" target="_blank">Gintong Hiyas</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Developer</h4>
+            <ul id="developers">
+              <li>Berdin, Aishen Candice Ann</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/misstidycleaningsolutions/"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://instagram.com/misstidycleaningsolutions?igshid=YmMyMTA2M2Y="
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer section ends -->
+  </body>
+</html>
